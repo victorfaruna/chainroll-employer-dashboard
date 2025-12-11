@@ -38,7 +38,7 @@ const BalanceSummary = () => {
       </div>
 
       <div className="flex items-center gap-3 mb-8">
-        <div className="w-10 h-10 rounded-full bg-purple-50 flex items-center justify-center text-purple-600">
+        <div className="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-blue-600">
           <svg
             width="20"
             height="20"
@@ -83,7 +83,7 @@ const BalanceSummary = () => {
             <path
               d="M0,80 C20,70 40,85 60,60 C80,35 100,45 120,40 C140,35 160,65 180,75 C200,85 220,70 240,65 C260,60 280,110 300,120 L310,100 C320,90 340,70 360,60 C380,50 400,65 400,60"
               fill="none"
-              stroke="#8B5CF6"
+              stroke="#2563eb"
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -96,7 +96,7 @@ const BalanceSummary = () => {
             />
             <defs>
               <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                <stop offset="0%" stopColor="#8B5CF6" />
+                <stop offset="0%" stopColor="#2563eb" />
                 <stop offset="100%" stopColor="#FFFFFF" stopOpacity="0" />
               </linearGradient>
             </defs>

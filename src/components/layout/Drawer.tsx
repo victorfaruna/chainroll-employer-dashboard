@@ -120,8 +120,8 @@ const Drawer = () => {
   const router = useRouter();
   const pathname = usePathname();
   return (
-    <section className="w-70 h-screen bg-primary border-r  border-secondary/5">
-      <div className="top flex h-16 items-center py-4 px-4 gap-2 border-b border-secondary/20">
+    <section className="w-70 h-screen bg-primary border-r  border-secondary/8">
+      <div className="top flex h-18 items-center py-4 px-4 gap-2 border-b border-secondary/10">
         <img
           src="/images/logo.png"
           alt="Logo"
@@ -132,7 +132,7 @@ const Drawer = () => {
         </p>
       </div>
 
-      <div className="main mt-6 px-4">
+      <div className="main mt-6 px-4 font-clash-display">
         <ul className="mt-5 gap-3 flex flex-col">
           {drawerItems.map((item, index) => (
             <Link href={item.href} key={index}>

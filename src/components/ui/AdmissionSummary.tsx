@@ -7,7 +7,7 @@ const AdmissionSummary = () => {
     { day: "T", height: "50%", active: true, color: "bg-gray-900" },
     { day: "W", height: "45%", active: true, color: "bg-gray-900" },
     { day: "T", height: "85%", active: true, color: "bg-gray-900" },
-    { day: "F", height: "60%", active: false, color: "bg-purple-500" },
+    { day: "F", height: "60%", active: false, color: "bg-blue-600" },
     { day: "S", height: "35%", active: false, color: "bg-gray-200" },
   ];
 
