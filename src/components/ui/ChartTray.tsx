@@ -5,7 +5,7 @@ import ContactsList from "./ContactsList";
 
 const ChartTray = () => {
   return (
-    <div className="grid grid-cols-1 2xl:grid-cols-4 gap-3 w-full">
+    <div className="max-w-[1500px] grid grid-cols-1 2xl:grid-cols-4 gap-3 w-full">
       <div className="w-full col-span-2">
         <BalanceSummary />
       </div>

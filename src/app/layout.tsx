@@ -70,7 +70,9 @@ export default function RootLayout({
         <Drawer />
         <div className="w-full flex flex-col">
           <Header />
-          <div className="h-full w-full py-5 px-3 bg-gray-50">{children}</div>
+          <div className="h-full w-full py-5 px-3 pr-10 bg-gray-50">
+            {children}
+          </div>
         </div>
       </body>
     </html>

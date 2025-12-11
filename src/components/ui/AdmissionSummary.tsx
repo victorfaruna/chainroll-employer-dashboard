@@ -14,9 +14,7 @@ const AdmissionSummary = () => {
   return (
     <div className="bg-white p-6 rounded-3xl shadow-lg shadow-secondary/3 border border-gray-50 flex flex-col h-full">
       <div className="mb-8">
-        <h3 className="text-lg font-medium text-gray-800 mb-2">
-          Admission Summary
-        </h3>
+        <h3 className="font-medium text-gray-800 mb-2">Admission Summary</h3>
         <div className="flex items-center gap-3">
           <span className="text-2xl font-semibold font-clash-display text-gray-900">
             $4,563

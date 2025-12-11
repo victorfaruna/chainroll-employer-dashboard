@@ -38,7 +38,7 @@ const ContactsList = () => {
     <div className="bg-white p-6 rounded-3xl shadow-lg shadow-secondary/3 border border-gray-50 flex flex-col h-full">
       <div className="flex justify-between items-start mb-6">
         <div>
-          <h3 className="text-lg font-medium text-gray-800">Contacts</h3>
+          <h3 className="font-medium text-gray-800">Contacts</h3>
           <p className="text-sm text-gray-400 mt-1">You have 245 clients</p>
         </div>
         <button className="w-10 h-10 flex items-center justify-center rounded-xl bg-gray-50 text-gray-600 hover:bg-gray-100 transition-colors">

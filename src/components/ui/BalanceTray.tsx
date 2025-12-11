@@ -22,9 +22,7 @@ const BalanceCard = ({
           <div className="size-10 rounded-xl bg-gray-50 flex items-center justify-center text-secondary">
             {icon}
           </div>
-          <span className="text-secondary/60 font-medium text-[16px]">
-            {title}
-          </span>
+          <span className="text-secondary/60 font-medium">{title}</span>
         </div>
         <div className="px-3 py-1.5 bg-gray-50 rounded-md">
           <span className="text-xs font-medium text-secondary/40">
@@ -36,7 +34,7 @@ const BalanceCard = ({
       <div className="flex items-end justify-between">
         <div className="flex flex-col gap-2">
           <div className="flex items-center gap-3">
-            <h3 className="text-[24px] font-semibold text-secondary font-clash-display">
+            <h3 className="text-[22px] font-semibold text-secondary font-clash-display">
               {amount}
             </h3>
             <div className="px-2 py-1 bg-emerald-50 rounded-full border border-emerald-100">

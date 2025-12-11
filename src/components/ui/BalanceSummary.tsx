@@ -4,9 +4,7 @@ const BalanceSummary = () => {
   return (
     <div className="bg-white p-6 rounded-3xl shadow-lg shadow-secondary/3 border border-gray-50 flex flex-col h-full">
       <div className="flex justify-between items-start mb-6">
-        <h3 className="text-lg font-medium text-gray-800">
-          Your Balance Summary
-        </h3>
+        <h3 className="font-medium text-gray-800">Your Balance Summary</h3>
         <button className="flex items-center gap-2 px-3 py-1.5 bg-gray-50 rounded-lg text-sm font-medium text-gray-500 hover:bg-gray-100 transition-colors">
           <svg
             width="16"
