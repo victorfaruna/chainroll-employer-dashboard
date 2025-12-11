@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import "./fonts.css";
+
+:root {
+  --primary: #ffffff;
+  --secondary: #000000;
+  --accent: #2a6ef0;
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --font-roobert: "Roobert Semi Mono", sans-serif;
+  --font-satoshi: "Satoshi", sans-serif;
+  --font-clash-display: var(--font-clash-display);
+  --font-chillax: var(--font-chillax);
+}
+
+body {
+  background: var(--primary);
+  color: var(--secondary);
+  font-weight: 500;
+  font-size: 14px;
+  font-family: var(--font-satoshi);
+}
