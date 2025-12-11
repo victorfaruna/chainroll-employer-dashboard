@@ -2,14 +2,14 @@ import React from "react";
 
 const SearchBox = () => {
   return (
-    <div className="px-4 w-80 py-2.5 flex items-center gap-2 bg-gray-100 rounded-xl overflow-hidden">
+    <div className="px-4 w-96 py-2.5 flex items-center gap-2 bg-gray-100 border border-gray-200 rounded-lg overflow-hidden">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
         strokeWidth={1.5}
         stroke="currentColor"
-        className="size-5"
+        className="size-5 text-gray-500"
       >
         <path
           strokeLinecap="round"
@@ -21,7 +21,7 @@ const SearchBox = () => {
       <input
         type="text"
         placeholder="Search"
-        className="w-full bg-transparent outline-0 border-0 focus:outline-none focus:border-0"
+        className="w-full placeholder-gray-500 bg-transparent outline-0 border-0 focus:outline-none focus:border-0"
       />
       <div className="flex items-center justify-center gap-0.5">
         <svg

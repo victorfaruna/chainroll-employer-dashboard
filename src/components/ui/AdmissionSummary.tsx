@@ -12,7 +12,7 @@ const AdmissionSummary = () => {
   ];
 
   return (
-    <div className="bg-white p-6 rounded-3xl shadow-lg shadow-secondary/3 border border-gray-50 flex flex-col h-full">
+    <div className="bg-white p-6 rounded-xl shadow-lg shadow-secondary/3 border border-gray-50 flex flex-col h-full">
       <div className="mb-8">
         <h3 className="font-medium text-gray-800 mb-2">Admission Summary</h3>
         <div className="flex items-center gap-3">
