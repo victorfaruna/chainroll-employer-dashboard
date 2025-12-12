@@ -67,13 +67,7 @@ export default function RootLayout({
       <body
         className={`${cabin.variable} ${clashDisplay.variable} ${chillax.variable} antialiased flex`}
       >
-        <Drawer />
-        <div className="w-full flex flex-col">
-          <Header />
-          <div className="h-full w-full py-5 px-5 pr-10 bg-gray-50">
-            {children}
-          </div>
-        </div>
+        {children}
       </body>
     </html>
   );

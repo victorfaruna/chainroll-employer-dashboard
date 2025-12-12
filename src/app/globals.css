@@ -21,6 +21,6 @@ body {
   background: var(--primary);
   color: var(--secondary);
   font-weight: 500;
-  font-size: 14px;
-  font-family: var(--font-roobert);
+  font-size: 12px;
+  font-family: var(--font-satoshi);
 }

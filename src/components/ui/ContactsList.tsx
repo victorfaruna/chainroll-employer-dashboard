@@ -1,4 +1,4 @@
-import React from "react";
+import Avatar from "boring-avatars";
 
 const ContactsList = () => {
   const contacts = [
@@ -62,15 +62,14 @@ const ContactsList = () => {
         {contacts.map((contact, index) => (
           <div key={index} className="flex items-center justify-between group">
             <div className="flex items-center gap-3">
-              <div
-                className={`w-12 h-12 rounded-2xl overflow-hidden ${contact.bg}`}
-              >
+              <div className={`w-12 h-12 rounded-lg overflow-hidden`}>
                 {/* Fallback to color if image fails (though standard img tag usually handles src) */}
-                <img
+                {/* <img
                   src={contact.img}
                   alt={contact.name}
                   className="w-full h-full object-cover"
-                />
+                /> */}
+                <Avatar size={50} name={contact.name} square />;
               </div>
               <div>
                 <h4 className="font-bold text-gray-800 text-sm">

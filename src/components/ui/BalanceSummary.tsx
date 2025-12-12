@@ -55,7 +55,7 @@ const BalanceSummary = () => {
         </div>
         <div>
           <p className="text-sm text-gray-500 font-medium">Income</p>
-          <p className="text-2xl font-clash-display font-semibold text-gray-900">
+          <p className="text-xl font-clash-display font-semibold text-gray-900">
             $525,252.000
           </p>
         </div>
@@ -84,7 +84,7 @@ const BalanceSummary = () => {
               d="M0,80 C20,70 40,85 60,60 C80,35 100,45 120,40 C140,35 160,65 180,75 C200,85 220,70 240,65 C260,60 280,110 300,120 L310,100 C320,90 340,70 360,60 C380,50 400,65 400,60"
               fill="none"
               stroke="#2563eb"
-              strokeWidth="2"
+              strokeWidth="1"
               strokeLinecap="round"
               strokeLinejoin="round"
               className="drop-shadow-sm"

@@ -16,7 +16,7 @@ const BalanceCard = ({
   chart,
 }: BalanceCardProps) => {
   return (
-    <div className="max-2xl:flex-1 bg-white p-4 rounded-xl flex flex-col justify-between h-[180px] 2xl:min-w-[400px] shadow-lg shadow-secondary/4">
+    <div className="max-2xl:flex-1 bg-white p-4 rounded-xl flex flex-col justify-between h-[180px] 2xl:min-w-[400px] shadow-lg shadow-secondary/3">
       <div className="flex justify-between items-start">
         <div className="flex items-center gap-3">
           <div className="size-10 rounded-xl bg-gray-50 flex items-center justify-center text-secondary">
@@ -34,7 +34,7 @@ const BalanceCard = ({
       <div className="flex items-end justify-between">
         <div className="flex flex-col gap-2">
           <div className="flex items-center gap-3">
-            <h3 className="text-[22px] font-semibold text-secondary font-clash-display">
+            <h3 className="text-xl font-semibold text-secondary font-clash-display">
               {amount}
             </h3>
             <div className="px-2 py-1 bg-emerald-50 rounded-full border border-emerald-100">
@@ -67,7 +67,7 @@ const BalanceTray = ({
   transactions = { amount: "$15,585", growth: "+0.5%" },
 }: BalanceTrayProps) => {
   return (
-    <div className="flex gap-3 w-full overflow-x-auto">
+    <div className="flex gap-3 w-full">
       {/* Expense Card */}
       <BalanceCard
         title="Expense"
