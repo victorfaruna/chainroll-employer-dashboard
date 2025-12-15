@@ -9,11 +9,13 @@ export default function DashboardLayout({
   return (
     <>
       <Drawer />
+
       <div className="w-full flex flex-col h-screen overflow-y-auto ">
         <Header />
-        <div className="w-full h-full py-5 px-5 pr-10 bg-gray-50/80">
+        <div className="w-full h-full py-5 px-5 pr-10 bg-gray-50/60">
           {children}
         </div>
+        j
       </div>
     </>
   );

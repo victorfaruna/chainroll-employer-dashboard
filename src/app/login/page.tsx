@@ -1,7 +1,9 @@
 "use client";
 import { useRef } from "react";
+import { useSession, signIn, signOut } from "next-auth/react";
 
 const LoginPage = () => {
+  const { data: session } = useSession();
   const videoRef = useRef<HTMLVideoElement>(null);
   return (
     <section className="w-screen h-screen flex flex-col-reverse md:flex-row items-center justify-center p-2">
@@ -34,7 +36,7 @@ const LoginPage = () => {
       </div>
       <div className="flex-1 h-screen flex justify-center items-center">
         <div className="inner w-[350px]">
-          <p className="text-2xl font-semibold text-secondary/80 font-clash-display">
+          <p className="text-xl font-semibold text-secondary/80 font-clash-display">
             Welcome to Chainroll
           </p>
           <p className="text-gray-400">
@@ -42,7 +44,10 @@ const LoginPage = () => {
             crypto or stablecoins.
           </p>
 
-          <button className="w-full border rounded-xl border-gray-300 p-3 cursor-pointer mt-4 flex justify-center items-center gap-2">
+          <button
+            onClick={() => signIn("google")}
+            className="w-full border rounded-xl border-gray-300 p-3 cursor-pointer mt-4 flex justify-center items-center gap-2"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"

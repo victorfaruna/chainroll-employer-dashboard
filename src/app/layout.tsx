@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import { Cabin } from "next/font/google";
 import "./globals.css";
-import Drawer from "../components/layout/Drawer";
-import Header from "../components/layout/Header";
 import localFont from "next/font/local";
+import Providers from "../lib/providers/provider";
 
 const cabin = Cabin({
   variable: "--font-cabin",
@@ -67,7 +66,7 @@ export default function RootLayout({
       <body
         className={`${cabin.variable} ${clashDisplay.variable} ${chillax.variable} antialiased flex`}
       >
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
