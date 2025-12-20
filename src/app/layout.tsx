@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Cabin } from "next/font/google";
+import { Cabin, Urbanist } from "next/font/google";
 import "./globals.css";
 import localFont from "next/font/local";
 import Providers from "../lib/providers/provider";
 
-const cabin = Cabin({
-  variable: "--font-cabin",
+const urbanist = Urbanist({
+  variable: "--font-urbanist",
   subsets: ["latin"],
 });
 
@@ -64,7 +64,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${cabin.variable} ${clashDisplay.variable} ${chillax.variable} antialiased flex`}
+        className={`${urbanist.variable} ${clashDisplay.variable} ${chillax.variable} antialiased flex`}
       >
         <Providers>{children}</Providers>
       </body>

@@ -147,9 +147,9 @@ const TeamTray = () => {
   );
 
   return (
-    <div className="flex max-w-[1600px] pr-10 flex-col xl:flex-row gap-3 h-full min-h-[400px]">
+    <div className="flex max-w-[1600px] flex-col xl:flex-row gap-3 h-full min-h-[400px]">
       {/* Latest Transaction Section */}
-      <div className="flex-1 bg-white p-6 rounded-xl shadow-lg shadow-secondary/3 border border-gray-50 flex flex-col">
+      <div className="flex-1 bg-white/30 p-6 rounded-xl border border-gray-200 flex flex-col">
         <div className="flex justify-between items-start mb-6">
           <div>
             <h3 className="font-semibold text-lg text-gray-900">

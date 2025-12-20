@@ -2,7 +2,7 @@ import React from "react";
 
 const SearchBox = () => {
   return (
-    <div className="px-4 w-96 py-2.5 flex items-center gap-2 bg-gray-200 border border-gray-200 rounded-lg overflow-hidden">
+    <div className="px-4 w-120 py-2.5 flex items-center gap-2 bg-gray-200/80 border border-gray-300 rounded-lg overflow-hidden">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"

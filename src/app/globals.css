@@ -15,12 +15,14 @@
   --font-satoshi: "Satoshi", sans-serif;
   --font-clash-display: var(--font-clash-display);
   --font-chillax: var(--font-chillax);
+  --font-urbanist: var(--font-urbanist);
+  /* Use roobert for digits */
 }
 
 body {
   background: var(--primary);
   color: var(--secondary);
   font-weight: 500;
-  font-size: 12px;
-  font-family: var(--font-satoshi);
+  font-size: 0.8rem;
+  font-family: var(--font-urbanist);
 }
